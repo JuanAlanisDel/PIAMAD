@@ -18,7 +18,6 @@ namespace PIAMAD
         N_Usuario objnusuario = new N_Usuario();
         InicioSesion frm1 = new InicioSesion();
         public static string correo;
-        public static string area;
 
         void registro()
         {
@@ -36,11 +35,20 @@ namespace PIAMAD
             {
                 MessageBox.Show("Se encontró el correo y la contraseña en la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 correo = dt.Rows[0][1].ToString();
-                //area = dt.Rows[0][2].ToString();
+                    textCorreo.Clear();
+                    textPassword.Clear();
+                    textNombre.Clear();
+                    textNomina.Clear();
+                    textDomicilio.Clear();
+                    textTelefono.Clear();
+            }
+            else
+            {
+                MessageBox.Show("No se encontraron similitudes con la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 frm1.ShowDialog();
                 RegUsu regusu = new RegUsu();
                 regusu.ShowDialog();
-                if(regusu.DialogResult == DialogResult.OK)
+                if (regusu.DialogResult == DialogResult.OK)
                 {
                     Application.Run(new InicioSesion());
                     textCorreo.Clear();
@@ -48,16 +56,8 @@ namespace PIAMAD
                     textNombre.Clear();
                     textNomina.Clear();
                     textDomicilio.Clear();
+                    textTelefono.Clear();
                 }
-            }
-            else
-            {
-                MessageBox.Show("No se encontraron similitudes con la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                textCorreo.Clear();
-                textPassword.Clear();
-                textNombre.Clear();
-                textNomina.Clear();
-                textDomicilio.Clear();
             }
         }
 

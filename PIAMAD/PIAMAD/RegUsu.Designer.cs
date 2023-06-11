@@ -199,6 +199,7 @@ namespace PIAMAD
             // comboRol
             // 
             this.comboRol.DisplayMember = "Administrador";
+            this.comboRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboRol.FormattingEnabled = true;
             this.comboRol.Items.AddRange(new object[] {
             "Administrador",

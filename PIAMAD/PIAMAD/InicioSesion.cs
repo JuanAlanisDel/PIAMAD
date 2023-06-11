@@ -17,8 +17,9 @@ namespace PIAMAD
         E_Usuario objeusuario = new E_Usuario();
         N_Usuario objnusuario = new N_Usuario();
         Admin frm1 = new Admin();
+        Oper frm2 = new Oper();
         public static string correo;
-        //public static string area;
+        public static string area;
         void login()
         {
             DataTable dt = new DataTable();
@@ -29,16 +30,29 @@ namespace PIAMAD
             {
                 MessageBox.Show("Se encontró el correo y la contraseña en la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 correo = dt.Rows[0][1].ToString();
-                //area = dt.Rows[0][2].ToString();
-                frm1.ShowDialog();
-                InicioSesion inicioSesion = new InicioSesion();
-                inicioSesion.ShowDialog();
-                if (inicioSesion.DialogResult == DialogResult.OK)
+                area = dt.Rows[0][0].ToString();
+                if (area == "0")
                 {
-                    Application.Run(new Admin());
-                    textCorreo.Clear();
-                    textPassword.Clear();
+                    frm1.ShowDialog();
+                    if (DialogResult == DialogResult.OK)
+                    {
+                        Application.Run(new Admin());
+                        textCorreo.Clear();
+                        textPassword.Clear();
+                    }
                 }
+                else if (area == "1")
+                {
+                    frm2.ShowDialog();
+                    if (DialogResult == DialogResult.OK)
+                    {
+                        Application.Run(new Oper());
+                        textCorreo.Clear();
+                        textPassword.Clear();
+                    }
+                }
+                
+                
             }
             else
             {

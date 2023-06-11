@@ -4,3 +4,9 @@ C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.A
 C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
 C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.dll
 C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Entidad\obj\Debug\Capa_Entidad.pdb

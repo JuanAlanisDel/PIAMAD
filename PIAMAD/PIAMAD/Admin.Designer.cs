@@ -133,7 +133,7 @@
             // cancelarReserv
             // 
             this.cancelarReserv.Name = "cancelarReserv";
-            this.cancelarReserv.Size = new System.Drawing.Size(157, 22);
+            this.cancelarReserv.Size = new System.Drawing.Size(180, 22);
             this.cancelarReserv.Text = "Cancelar reserv.";
             this.cancelarReserv.Click += new System.EventHandler(this.cancelarReserv_Click);
             // 
@@ -186,6 +186,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "Admin";
             this.Text = "Administrador";
+            this.Load += new System.EventHandler(this.Admin_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

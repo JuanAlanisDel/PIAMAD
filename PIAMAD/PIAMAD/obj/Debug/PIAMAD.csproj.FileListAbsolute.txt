@@ -75,3 +75,4 @@ C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.csp
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.csproj.CopyComplete
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.exe
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.Oper.resources
