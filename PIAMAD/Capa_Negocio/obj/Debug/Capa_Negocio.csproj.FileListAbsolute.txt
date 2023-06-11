@@ -9,3 +9,14 @@ C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.C
 C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
 C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\PC\Downloads\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

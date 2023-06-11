@@ -31,7 +31,7 @@ namespace PIAMAD
             objeusuario.rol = comboRol.Text;
             objeusuario.fechaNac = fechaNac.Text;
             objeusuario.telefono = Convert.ToInt32(textTelefono.Text);
-            dt = objnusuario.N_Usuarios(objeusuario);
+            dt = objnusuario.N_Create_Usuarios(objeusuario);
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Se encontró el correo y la contraseña en la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -53,6 +53,11 @@ namespace PIAMAD
             else
             {
                 MessageBox.Show("No se encontraron similitudes con la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                textCorreo.Clear();
+                textPassword.Clear();
+                textNombre.Clear();
+                textNomina.Clear();
+                textDomicilio.Clear();
             }
         }
 

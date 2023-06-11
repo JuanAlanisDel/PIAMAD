@@ -11,9 +11,13 @@ namespace Capa_Negocio
     public class N_Usuario
     {
         D_Usuario objd = new D_Usuario();
-        public DataTable N_Usuarios(E_Usuario obje)
+        public DataTable N_Create_Usuarios(E_Usuario obje)
         {
-            return objd.D_Usuarios(obje);
+            return objd.D_Create_Usuarios(obje);
+        }
+        public DataTable N_Get_Usuarios(E_Usuario obje)
+        {
+            return objd.D_Get_Usuarios(obje);
         }
     }
 }

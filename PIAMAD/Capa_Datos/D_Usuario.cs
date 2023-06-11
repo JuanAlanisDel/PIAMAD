@@ -12,7 +12,7 @@ namespace Capa_Datos
     public class D_Usuario
     {
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["sql"].ConnectionString);
-        public DataTable D_Usuarios(E_Usuario obje)
+        public DataTable D_Create_Usuarios(E_Usuario obje)
         {
             SqlCommand cmd = new SqlCommand("CreateUsuario", cn);
             cmd.CommandType = CommandType.StoredProcedure;
@@ -24,6 +24,17 @@ namespace Capa_Datos
             cmd.Parameters.AddWithValue("@id_tipo", obje.rol);
             cmd.Parameters.AddWithValue("@usuNac", obje.fechaNac);
             cmd.Parameters.AddWithValue("@usutel", obje.telefono);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        public DataTable D_Get_Usuarios(E_Usuario obje)
+        {
+            SqlCommand cmd = new SqlCommand("GetUsuario", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@correo", obje.correo);
+            cmd.Parameters.AddWithValue("@password", obje.password);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
