@@ -33,11 +33,11 @@
             this.registrarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historialClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reservacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.realizarReservToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.historialClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +69,7 @@
             this.registrarClienteToolStripMenuItem.Name = "registrarClienteToolStripMenuItem";
             this.registrarClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.registrarClienteToolStripMenuItem.Text = "Registrar cliente";
+            this.registrarClienteToolStripMenuItem.Click += new System.EventHandler(this.registrarClienteToolStripMenuItem_Click);
             // 
             // modificarClienteToolStripMenuItem
             // 
@@ -81,6 +82,12 @@
             this.eliminarClienteToolStripMenuItem.Name = "eliminarClienteToolStripMenuItem";
             this.eliminarClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.eliminarClienteToolStripMenuItem.Text = "Eliminar cliente";
+            // 
+            // historialClienteToolStripMenuItem
+            // 
+            this.historialClienteToolStripMenuItem.Name = "historialClienteToolStripMenuItem";
+            this.historialClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.historialClienteToolStripMenuItem.Text = "Historial cliente";
             // 
             // reservacionToolStripMenuItem
             // 
@@ -95,26 +102,20 @@
             // realizarReservToolStripMenuItem
             // 
             this.realizarReservToolStripMenuItem.Name = "realizarReservToolStripMenuItem";
-            this.realizarReservToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.realizarReservToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.realizarReservToolStripMenuItem.Text = "Realizar reserv.";
             // 
             // checkInToolStripMenuItem
             // 
             this.checkInToolStripMenuItem.Name = "checkInToolStripMenuItem";
-            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.checkInToolStripMenuItem.Text = "Check In";
             // 
             // checkOutToolStripMenuItem
             // 
             this.checkOutToolStripMenuItem.Name = "checkOutToolStripMenuItem";
-            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.checkOutToolStripMenuItem.Text = "Check Out";
-            // 
-            // historialClienteToolStripMenuItem
-            // 
-            this.historialClienteToolStripMenuItem.Name = "historialClienteToolStripMenuItem";
-            this.historialClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.historialClienteToolStripMenuItem.Text = "Historial cliente";
             // 
             // label1
             // 
@@ -134,7 +135,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Oper";
-            this.Text = "Oper";
+            this.Text = "Operativo";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

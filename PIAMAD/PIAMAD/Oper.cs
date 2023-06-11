@@ -16,5 +16,11 @@ namespace PIAMAD
         {
             InitializeComponent();
         }
+
+        private void registrarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegClientes RegClientes = new RegClientes();
+            RegClientes.ShowDialog();
+        }
     }
 }
