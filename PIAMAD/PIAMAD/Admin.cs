@@ -35,7 +35,8 @@ namespace PIAMAD
 
         private void registrarHabit_Click(object sender, EventArgs e)
         {
-
+            RegHabit RegHabit = new RegHabit();
+            RegHabit.ShowDialog();
         }
 
         private void modificarHabit_Click(object sender, EventArgs e)

@@ -17,14 +17,13 @@ namespace Capa_Datos
         {
             SqlCommand cmd = new SqlCommand("CreateHabitacion", cn);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@cliCor", obje.correo);
-            cmd.Parameters.AddWithValue("@RFC", obje.rfc);
-            cmd.Parameters.AddWithValue("@CliNomCom", obje.nombre);
-            cmd.Parameters.AddWithValue("@cliEstCiv", obje.estadocivil);
-            cmd.Parameters.AddWithValue("@cliDom", obje.domicilio);
-            cmd.Parameters.AddWithValue("@cliRef", obje.referencia);
-            cmd.Parameters.AddWithValue("@cliNac", obje.fechaNac);
-            cmd.Parameters.AddWithValue("@cliTel", obje.telefono);
+            cmd.Parameters.AddWithValue("@habNivel", obje.habNivel);
+            cmd.Parameters.AddWithValue("@habCarac", obje.habCarac);
+            cmd.Parameters.AddWithValue("habAmen", obje.habAmen);
+            cmd.Parameters.AddWithValue("@habCam", obje.habCam);
+            cmd.Parameters.AddWithValue("@numCama", obje.numCama);
+            cmd.Parameters.AddWithValue("@habCantPer", obje.habCantPer);
+            cmd.Parameters.AddWithValue("@habPrecio", obje.habPrecio);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

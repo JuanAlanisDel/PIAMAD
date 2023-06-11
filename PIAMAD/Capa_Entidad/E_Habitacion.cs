@@ -8,13 +8,12 @@ namespace Capa_Entidad
 {
     public class E_Habitacion
     {
-        public String correo { get; set; }
-        public String rfc { get; set; }
-        public String nombre { get; set; }
-        public String estadocivil { get; set; }
-        public String domicilio { get; set; }
-        public String fechaNac { get; set; }
-        public String referencia { get; set; }
-        public int telefono { get; set; }
+        public String habNivel { get; set; }
+        public String habCarac { get; set; }
+        public String habAmen { get; set; }
+        public String habCam { get; set; }
+        public int numCama { get; set; }
+        public int habCantPer { get; set; }
+        public float habPrecio { get; set; }
     }
 }
