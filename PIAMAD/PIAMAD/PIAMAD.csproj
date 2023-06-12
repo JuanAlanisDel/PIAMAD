@@ -67,12 +67,6 @@
     <Compile Include="CamClientes.Designer.cs">
       <DependentUpon>CamClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cancelaciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cancelaciones.Designer.cs">
-      <DependentUpon>Cancelaciones.cs</DependentUpon>
-    </Compile>
     <Compile Include="CheckOut.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +90,12 @@
     </Compile>
     <Compile Include="EliHotel.Designer.cs">
       <DependentUpon>EliHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EliReserv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EliReserv.Designer.cs">
+      <DependentUpon>EliReserv.cs</DependentUpon>
     </Compile>
     <Compile Include="EliUsu.cs">
       <SubType>Form</SubType>
@@ -210,9 +210,6 @@
     <EmbeddedResource Include="CamClientes.resx">
       <DependentUpon>CamClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cancelaciones.resx">
-      <DependentUpon>Cancelaciones.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CheckOut.resx">
       <DependentUpon>CheckOut.cs</DependentUpon>
     </EmbeddedResource>
@@ -224,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EliHotel.resx">
       <DependentUpon>EliHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EliReserv.resx">
+      <DependentUpon>EliReserv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EliUsu.resx">
       <DependentUpon>EliUsu.cs</DependentUpon>

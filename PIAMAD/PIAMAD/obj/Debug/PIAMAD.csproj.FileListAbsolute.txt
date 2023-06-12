@@ -55,7 +55,6 @@ C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\bin\Debug\Capa_Datos
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.csproj.AssemblyReference.cache
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.csproj.SuggestedBindingRedirects.cache
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.CamClientes.resources
-C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.Cancelaciones.resources
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.ExtEst.resources
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.Factura.resources
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.InicioSesion.resources

@@ -55,7 +55,8 @@ namespace PIAMAD
 
         private void cancelarReserv_Click(object sender, EventArgs e)
         {
-
+            EliReserv eliReserv = new EliReserv();
+            eliReserv.ShowDialog();
         }
 
         private void desbloquearUsuario_Click(object sender, EventArgs e)
