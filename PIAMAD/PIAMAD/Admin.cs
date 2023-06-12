@@ -25,12 +25,14 @@ namespace PIAMAD
 
         private void modificarHotel_Click(object sender, EventArgs e)
         {
-
+            ModHotel ModHotel = new ModHotel();
+            ModHotel.ShowDialog();
         }
 
         private void eliminarHotel_Click(object sender, EventArgs e)
         {
-
+            EliHotel EliHotel = new EliHotel();
+            EliHotel.ShowDialog();
         }
 
         private void registrarHabit_Click(object sender, EventArgs e)
@@ -41,12 +43,14 @@ namespace PIAMAD
 
         private void modificarHabit_Click(object sender, EventArgs e)
         {
-
+            ModHabit ModHabit = new ModHabit();
+            ModHabit.ShowDialog();
         }
 
         private void eliminarHabit_Click(object sender, EventArgs e)
         {
-
+            EliHabit EliHabit = new EliHabit();
+            EliHabit.ShowDialog();
         }
 
         private void cancelarReserv_Click(object sender, EventArgs e)
@@ -61,12 +65,14 @@ namespace PIAMAD
 
         private void modificarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            ModUsu ModUsu = new ModUsu();
+            ModUsu.ShowDialog();
         }
 
         private void eliminarUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            EliUsu EliUsu = new EliUsu();
+            EliUsu.ShowDialog();
         }
 
         private void Admin_Load(object sender, EventArgs e)

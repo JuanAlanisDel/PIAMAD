@@ -15,5 +15,8 @@ namespace Capa_Entidad
         public int numCama { get; set; }
         public int habCantPer { get; set; }
         public float habPrecio { get; set; }
+        public int hotelId { get; set; }
+        public String accion { get; set; }
+        public int habId { get; set; }
     }
 }

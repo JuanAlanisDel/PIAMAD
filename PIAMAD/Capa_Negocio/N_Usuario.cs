@@ -15,9 +15,21 @@ namespace Capa_Negocio
         {
             return objd.D_Create_Usuarios(obje);
         }
-        public DataTable N_Get_Usuarios(E_Usuario obje)
+        public String N_Mantenimiento_Usuarios(E_Usuario obje)
         {
-            return objd.D_Get_Usuarios(obje);
+            return objd.D_Mantenimiento_Usuarios(obje);
+        }
+        public DataTable N_Buscar_Usuarios(E_Usuario obje)
+        {
+            return objd.D_Buscar_Usuarios(obje);
+        }
+        public DataTable N_Login_Usuarios(E_Usuario obje)
+        {
+            return objd.D_Login_Usuarios(obje);
+        }
+        public DataTable N_Get_Usuarios()
+        {
+            return objd.D_Get_Usuarios();
         }
     }
 }

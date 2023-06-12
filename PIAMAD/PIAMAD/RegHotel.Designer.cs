@@ -42,17 +42,19 @@
             this.inioper = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textZonaTur = new System.Windows.Forms.TextBox();
-            this.textCantHabit = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textNoPisos = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.noPisos = new System.Windows.Forms.NumericUpDown();
+            this.cantHab = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.noPisos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cantHab)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -175,6 +177,46 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Servicios adicionales";
             // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(210, 19);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(84, 17);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "Restaurante";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(144, 19);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(60, 17);
+            this.checkBox3.TabIndex = 2;
+            this.checkBox3.Text = "Masaje";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(69, 19);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(69, 17);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Gimnasio";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(13, 19);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(50, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Wi-Fi";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -191,13 +233,6 @@
             this.textZonaTur.Size = new System.Drawing.Size(200, 20);
             this.textZonaTur.TabIndex = 42;
             // 
-            // textCantHabit
-            // 
-            this.textCantHabit.Location = new System.Drawing.Point(116, 172);
-            this.textCantHabit.Name = "textCantHabit";
-            this.textCantHabit.Size = new System.Drawing.Size(200, 20);
-            this.textCantHabit.TabIndex = 38;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -206,13 +241,6 @@
             this.label8.Size = new System.Drawing.Size(102, 13);
             this.label8.TabIndex = 39;
             this.label8.Text = "Cant. habitaciones*:";
-            // 
-            // textNoPisos
-            // 
-            this.textNoPisos.Location = new System.Drawing.Point(116, 146);
-            this.textNoPisos.Name = "textNoPisos";
-            this.textNoPisos.Size = new System.Drawing.Size(200, 20);
-            this.textNoPisos.TabIndex = 35;
             // 
             // label7
             // 
@@ -223,60 +251,34 @@
             this.label7.TabIndex = 36;
             this.label7.Text = "Número de pisos*:";
             // 
-            // checkBox1
+            // noPisos
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(13, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(50, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Wi-Fi";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.noPisos.Location = new System.Drawing.Point(116, 147);
+            this.noPisos.Name = "noPisos";
+            this.noPisos.Size = new System.Drawing.Size(200, 20);
+            this.noPisos.TabIndex = 56;
             // 
-            // checkBox2
+            // cantHab
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(69, 19);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(69, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Gimnasio";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(144, 19);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(60, 17);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Masaje";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(210, 19);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(84, 17);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Restaurante";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.cantHab.Location = new System.Drawing.Point(116, 173);
+            this.cantHab.Name = "cantHab";
+            this.cantHab.Size = new System.Drawing.Size(200, 20);
+            this.cantHab.TabIndex = 57;
             // 
             // RegHotel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 335);
+            this.Controls.Add(this.cantHab);
+            this.Controls.Add(this.noPisos);
             this.Controls.Add(this.registrar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textZonaTur);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textCantHabit);
             this.Controls.Add(this.inioper);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textNoPisos);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textDomicilio);
             this.Controls.Add(this.label5);
@@ -292,6 +294,8 @@
             this.Text = "Registro de Hotel";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.noPisos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cantHab)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,13 +318,13 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textZonaTur;
-        private System.Windows.Forms.TextBox textCantHabit;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textNoPisos;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.NumericUpDown noPisos;
+        private System.Windows.Forms.NumericUpDown cantHab;
     }
 }

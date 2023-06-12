@@ -17,6 +17,7 @@ namespace Capa_Entidad
         public int canthabit { get; set; }
         public String zonatur { get; set; }
         public String inioper { get; set; }
-
+        public String accion { get; set; }
+        public int hotelid { get; set; }
     }
 }

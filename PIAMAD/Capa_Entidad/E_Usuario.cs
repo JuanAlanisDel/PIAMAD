@@ -12,6 +12,8 @@ namespace Capa_Entidad
         public String password { get; set; }
         public String nombre { get; set; }
         public int nomina { get; set; }
+        public String estatus { get; set; }
+        public String accion { get; set; }
         public String domicilio { get; set; }
         public String rol { get; set; }
         public String fechaNac { get; set; }

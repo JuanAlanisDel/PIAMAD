@@ -44,6 +44,7 @@
     <Compile Include="E_Cliente.cs" />
     <Compile Include="E_Habitacion.cs" />
     <Compile Include="E_Hotel.cs" />
+    <Compile Include="E_Reserv.cs" />
     <Compile Include="E_Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -76,3 +76,11 @@ C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.csp
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.exe
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.pdb
 C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.Oper.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.ModUsu.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.EliUsu.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.ModHotel.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.EliHotel.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.EliClientes.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.ModClientes.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.EliHabit.resources
+C:\Users\PC\OneDrive\Documentos\GitHub\PIAMAD\PIAMAD\PIAMAD\obj\Debug\PIAMAD.ModHabit.resources

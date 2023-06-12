@@ -16,5 +16,7 @@ namespace Capa_Entidad
         public String fechaNac { get; set; }
         public String referencia { get; set; }
         public int telefono { get; set; }
+        public String accion { get; set; }
+
     }
 }

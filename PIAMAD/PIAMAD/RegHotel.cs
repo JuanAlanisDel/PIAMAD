@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,9 +29,11 @@ namespace PIAMAD
             objehotel.pais = textPais.Text;
             objehotel.domicilio = textDomicilio.Text;
             objehotel.zonatur = textZonaTur.Text;
-            objehotel.canthabit = Convert.ToInt32(textCantHabit.Text);
-            objehotel.nopisos = Convert.ToInt32(textNoPisos.Text);
-            objehotel.inioper = inioper.Text;
+            objehotel.canthabit = Convert.ToInt32(cantHab.Text);
+            objehotel.nopisos = Convert.ToInt32(noPisos.Text);
+            string formato = "dd/MM/yyyy";
+            DateTime fecha = DateTime.ParseExact(inioper.Text, formato, CultureInfo.InvariantCulture);
+            objehotel.inioper = fecha.ToString();
             //falta Servicios Adicionales
             dt = objnhotel.N_Create_Hotel(objehotel);
             if (dt.Rows.Count > 0)
@@ -50,8 +53,6 @@ namespace PIAMAD
                     textPais.Clear();
                     textDomicilio.Clear();
                     textZonaTur.Clear();
-                    textCantHabit.Clear();
-                    textNoPisos.Clear();
                 }
             }
             else
@@ -64,8 +65,6 @@ namespace PIAMAD
                 textPais.Clear();
                 textDomicilio.Clear();
                 textZonaTur.Clear();
-                textCantHabit.Clear();
-                textNoPisos.Clear();
             }
         }
         public RegHotel()

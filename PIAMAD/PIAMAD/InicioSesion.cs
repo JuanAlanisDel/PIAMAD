@@ -25,7 +25,7 @@ namespace PIAMAD
             DataTable dt = new DataTable();
             objeusuario.correo = textCorreo.Text;
             objeusuario.password = textPassword.Text;
-            dt = objnusuario.N_Get_Usuarios(objeusuario);
+            dt = objnusuario.N_Login_Usuarios(objeusuario);
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Se encontró el correo y la contraseña en la base de datos", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);

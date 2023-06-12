@@ -29,12 +29,53 @@ namespace Capa_Datos
             da.Fill(dt);
             return dt;
         }
-        public DataTable D_Get_Usuarios(E_Usuario obje)
+        public String D_Mantenimiento_Usuarios(E_Usuario obje)
         {
-            SqlCommand cmd = new SqlCommand("GetUsuario", cn);
+            String accion = "";
+            SqlCommand cmd = new SqlCommand("MantenimientoUsuario", cn);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@correo", obje.correo);
             cmd.Parameters.AddWithValue("@password", obje.password);
+            cmd.Parameters.AddWithValue("@nombre", obje.nombre);
+            cmd.Parameters.AddWithValue("@nomina", obje.nomina);
+            cmd.Parameters.AddWithValue("@usuDom", obje.domicilio);
+            cmd.Parameters.AddWithValue("@id_tipo", obje.rol);
+            cmd.Parameters.AddWithValue("@usuNac", obje.fechaNac);
+            cmd.Parameters.AddWithValue("@usuTel", obje.telefono);
+            cmd.Parameters.AddWithValue("@id_estatus", obje.estatus);
+            cmd.Parameters.Add("@accion", SqlDbType.VarChar, 50).Value = obje.accion;
+            cmd.Parameters["@accion"].Direction = ParameterDirection.InputOutput;
+            if (cn.State == ConnectionState.Open) cn.Close();
+            cn.Open();
+            cmd.ExecuteNonQuery();
+            accion = cmd.Parameters["@accion"].Value.ToString();
+            cn.Close();
+            return accion;
+        }
+        public DataTable D_Login_Usuarios(E_Usuario obje)
+        {
+            SqlCommand cmd = new SqlCommand("LoginUsuario", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@correo", obje.correo);
+            cmd.Parameters.AddWithValue("@password", obje.password);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        public DataTable D_Buscar_Usuarios(E_Usuario obje)
+        {
+            SqlCommand cmd = new SqlCommand("BuscarUsuario", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@nomina", obje.nomina);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        public DataTable D_Get_Usuarios()
+        {
+            SqlCommand cmd = new SqlCommand("GetUsuario", cn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

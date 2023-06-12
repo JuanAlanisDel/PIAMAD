@@ -22,5 +22,23 @@ namespace PIAMAD
             RegClientes RegClientes = new RegClientes();
             RegClientes.ShowDialog();
         }
+
+        private void modificarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModClientes ModClientes = new ModClientes();
+            ModClientes.ShowDialog();
+        }
+
+        private void eliminarClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EliClientes EliClientes = new EliClientes();
+            EliClientes.ShowDialog();
+        }
+
+        private void realizarReservToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reservacion reservacion = new Reservacion();
+            reservacion.ShowDialog();
+        }
     }
 }
